@@ -1,10 +1,14 @@
 import Header from './Header.jsx'
+import MoodEntry from './components/MoodEntry.jsx';
 
 
 function App() {
 
     return(
-        <Header/>
+        <html>
+            <Header/>
+            <MoodEntry/>
+        </html>
     );
 
 }
