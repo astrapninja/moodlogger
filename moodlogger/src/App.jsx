@@ -10,50 +10,6 @@ function App() {
         <>
         <div className={styles.App}>
             <Header/>
-            {/* <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/>
-            <MoodEntry/> */}
         </div>
         </>
     );
