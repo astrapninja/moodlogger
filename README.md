@@ -20,3 +20,6 @@ Tracks moods 3x per day (morning, midday, evening) via a mood grid.
 
 - React + Vite
 - LocalStorage for persistence
+
+TODO: Switch options from header to a menu popout from the left by tapping/clicking the burger icon on top left
+Maybe: Populate top right of header so it's not so empty after the options are gone.

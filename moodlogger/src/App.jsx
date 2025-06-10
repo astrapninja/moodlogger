@@ -1,14 +1,61 @@
-import Header from './Header.jsx'
+import styles from "./App.module.css"
+
+import Header from './Header/Header.jsx'
 import MoodEntry from './components/MoodEntry.jsx';
 
 
 function App() {
 
     return(
-        <html>
+        <>
+        <div className={styles.App}>
             <Header/>
+            {/* <MoodEntry/>
             <MoodEntry/>
-        </html>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/>
+            <MoodEntry/> */}
+        </div>
+        </>
     );
 
 }

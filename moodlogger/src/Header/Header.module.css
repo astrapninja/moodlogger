@@ -1,0 +1,37 @@
+@import "../vars.css";
+
+.Header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-top: 61px; */
+    margin: 0 2%;
+}
+
+.HeaderTitle {
+    margin-left: 0 5%;
+    margin-right: auto;
+    font-size: var(--font-title-size);
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.MenuButton {
+    margin-top: 7%;
+    max-width: 85%;
+    height: auto;
+}
+
+.MenuItems {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.MenuItems a {
+    font-size: var(--font-size);
+    color: var(--color-text);
+    text-decoration: none;
+}
