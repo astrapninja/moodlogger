@@ -1,16 +1,15 @@
-import styles from "./App.module.css"
-
 import Header from './Header/Header.jsx'
+import Menu from './components/Menu/menu.jsx'
 import MoodEntry from './components/MoodEntry.jsx';
+
 
 
 function App() {
 
     return(
         <>
-        <div className={styles.App}>
+            <Menu/>
             <Header/>
-        </div>
         </>
     );
 

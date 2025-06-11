@@ -4,20 +4,22 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    /* padding-top: 61px; */
-    margin: 0 2%;
+    background-color: var(--color-bg);
+    justify-content: space-between;
+    margin: 0;
+    gap: 1rem;
+    width: 100%;
 }
 
 .HeaderTitle {
-    margin-left: 0 5%;
     margin-right: auto;
     font-size: var(--font-title-size);
     color: var(--color-text);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .MenuButton {
+    margin-left: 25%;
     margin-top: 7%;
     max-width: 85%;
     height: auto;
@@ -28,10 +30,17 @@
     gap: 47px;
     list-style: none;
     justify-content: space-evenly;
+    padding-right: 2rem;
 }
 
 .MenuItems a {
     font-size: var(--font-size);
     color: var(--color-text);
     text-decoration: none;
+}
+
+.MenuItems a:hover {
+    font-size: var(--font-size);
+    color: var(--color-hover-text);
+    text-decoration: underline;
 }
